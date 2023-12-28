@@ -43,11 +43,69 @@ If you want to output information to the screen, it's easy to do by using the ec
 ```
 
 
-## 🦞🦀🦑 Va 🦑🦀🦞
+## 🦞🦀🦑 Variable Scope in PHP 🦑🦀🦞
 
-## 🦞🦀🦑 Va 🦑🦀🦞
+- PHP users can declare variables anywhere in the PHP script, outside the function or with the function. The exact area within which a particular variable can be used is called the scope of the variable. There are three main scopes of variables, namely local, global and static. We will show several examples of variables from three scopes.
 
-## 🦞🦀🦑 Va 🦑🦀🦞
+## 🦞🦀🦑 Local Scope 🦑🦀🦞
+The following is an example of using variables with local scope:
+
+```
+<?php
+  function belajar() {
+    $a = 5; // cakupan lokal
+    echo "Nilai variabel a dalam function adalah: $a";
+  } 
+  belajar();
+```
+
+```
+  // memanggil variabel a di luar function akan menghasilkan error
+  echo "Nilai variabel a di luar function adalah: $a";
+?>
+```
+
+## 🦞🦀🦑 Global Scope 🦑🦀🦞
+The following is an example of a variable in global scope:
+
+```
+<?php
+  $a = 5; // cakupan global
+ 
+  function belajar() {
+    // memanggil variabel a di dalam function akan menghasilkan error
+    echo "Nilai variabel a dalam function adalah: $a";
+  } 
+  belajar();
+  echo "Nilai variabel a di luar function adalah: $a";
+?>
+```
+
+## 🦞🦀🦑 Static Scope 🦑🦀🦞
+The following is an example of a variable in static scope:
+
+```
+<?php
+  function hitung() {
+    static $a = 5;
+    echo $a;
+    $a++;
+  }
+  hitung();
+  hitung();
+?>
+```
+
+Variables will retain their local scope and previously held data. It will not be deleted, no matter how many times you will repeat the function.
+
+## 🦞🦀🦑 Conclusion 🦑🦀🦞
+Here are the conclusions of this article as follows:
+
+1. You can recognize PHP variables from the first time you see them, because they always start with $.
+2. Although the name can contain numbers, it cannot start with one: the first symbol must be a letter or an underscore (_).
+3. The information stored in a particular PHP variable is called a value.
+4. Unlike functions, variables are case sensitive.
+5. That's the basic PHP learning material related to how to use variables in PHP.
 
 ## 🦞🦀🦑 Licences 🦑🦀🦞
 Copyright by Diantya Pitaloka
