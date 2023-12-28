@@ -4,13 +4,13 @@
 - Once you learn the basics of PHP, you will see a dollar sign ($) on your screen, because this symbol ($) is used to mark variables. The following is a further explanation of PHP variables.
 
 ## 🦞🦀🦑 Learning Basic PHP: Understanding the Use of Variables 🦑🦀🦞
-PHP variables are similar to small containers used to store value information. This value usually consists of letters or numbers, but variables can also exist without storing any value.
+- PHP variables are similar to small containers used to store value information. This value usually consists of letters or numbers, but variables can also exist without storing any value.
 
-You don't need to declare a variable before adding a value to it. The first time you assign a value to a particular variable name, you create a variable.
+- You don't need to declare a variable before adding a value to it. The first time you assign a value to a particular variable name, you create a variable.
 
-Values are assigned using the equal sign, also called the assignment operator (=). Repetition of a process with the same name results in a change in value.
+- Values are assigned using the equal sign, also called the assignment operator (=). Repetition of a process with the same name results in a change in value.
 
-PHP will also automatically understand the type of variable that corresponds to the value you have set. The context in which a particular PHP variable works is called the scope of the PHP variable. Several things you need to pay attention to when using PHP variables:
+- PHP will also automatically understand the type of variable that corresponds to the value you have set. The context in which a particular PHP variable works is called the scope of the PHP variable. Several things you need to pay attention to when using PHP variables:
 
 1. Variables in PHP start with the $ sign.
 2. Variables in PHP are used to store information (values).
@@ -21,9 +21,9 @@ PHP will also automatically understand the type of variable that corresponds to 
 8. Assignment Operator (=) is used to assign values to variables.
 
 ## 🦞🦀🦑 Examples of Using Variables 🦑🦀🦞
-PHP variables can have names as long or as short as you want. These can consist of one letter (a, b, c, and so on) or contain many words such as tree, household, and so on.
+- PHP variables can have names as long or as short as you want. These can consist of one letter (a, b, c, and so on) or contain many words such as tree, household, and so on.
 
-The example below shows that the variable $name is a container for Jason's value and the variables $a and $b have values 5 and 10 respectively.
+- The example below shows that the variable $name is a container for Jason's value and the variables $a and $b have values 5 and 10 respectively.
 
 ```
 <?php
