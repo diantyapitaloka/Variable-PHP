@@ -10,7 +10,10 @@
 
 - Values are assigned using the equal sign, also called the assignment operator (=). Repetition of a process with the same name results in a change in value.
 
-- PHP will also automatically understand the type of variable that corresponds to the value you have set. The context in which a particular PHP variable works is called the scope of the PHP variable. Several things you need to pay attention to when using PHP variables:
+- PHP will also automatically understand the type of variable that corresponds to the value you have set. The context in which a particular PHP variable works is called the scope of the PHP variable.
+
+## 🦞🦀🦑 Note for PHP Variable 🦑🦀🦞
+Several things you need to pay attention to when using PHP variables:
 
 1. Variables in PHP start with the $ sign.
 2. Variables in PHP are used to store information (values).
