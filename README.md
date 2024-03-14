@@ -69,7 +69,7 @@ The following is an example of using variables with local scope:
 ```
 
 ## 🦞🦀🦑 Global Scope 🦑🦀🦞
-The following is an example of a variable in global scope:
+The following is an example of a variable in global scope such as:
 
 ```
 <?php
