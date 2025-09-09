@@ -1,9 +1,11 @@
 ## 🦞🦀🦑 Introduction 🦑🦀🦞
+The definition:
 - PHP is a programming language that has many variables.
 - Learning PHP is incomplete without discussing PHP variables.
 - Once you learn the basics of PHP, you will see a dollar sign ($) on your screen, because this symbol ($) is used to mark variables. The following is a further explanation of PHP variables.
 
 ## 🦞🦀🦑 Learning Basic PHP: Understanding the Use of Variables 🦑🦀🦞
+Learning Basics:
 - PHP variables are similar to small containers used to store value information. This value usually consists of letters or numbers, but variables can also exist without storing any value.
 
 - You don't need to declare a variable before adding a value to it. The first time you assign a value to a particular variable name, you create a variable.
