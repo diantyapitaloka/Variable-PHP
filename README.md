@@ -4,6 +4,7 @@ The definition:
 - Learning PHP is incomplete without discussing PHP variables.
 - Once you learn the basics of PHP, you will see a dollar sign ($) on your screen, because this symbol ($) is used to mark variables. The following is a further explanation of PHP variables.
 - A variable name must start with a letter or an underscore (_), never a number. While they can contain alphanumeric characters (A-z, 0-9), sticking to clear, descriptive names makes your future self much happier.
+- PHP variables are picky. $User, $user, and $USER are treated as three completely different containers. Consistency is key to avoiding "missing variable" bugs.
 
 ## 🦞🦀🦑 Learning Basic PHP: Understanding the Use of Variables 🦑🦀🦞
 Learning Basics:
