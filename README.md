@@ -4,6 +4,7 @@ The definition:
 - Static Variables: If you want a variable inside a function to "remember" its value even after the function finishes (without making it global), use the static keyword. This is perfect for counters.
 - Learning PHP is incomplete without discussing PHP variables.
 - Variable Scope (Local vs. Global): Variables created inside a function are "local" and vanish once the function ends. To use a variable from the outside world inside a function, you must use the global keyword or the GLOBALS array.
+- Constants vs. Variables: Unlike standard variables, constants are defined without a dollar sign and cannot be changed once set. They are globally accessible across your entire script, making them ideal for configuration settings like database credentials.
 - Always try to initialize your variables. Even though PHP lets you create them on the fly, it’s best practice to define them early to prevent "Undefined variable" notices.
 - Once you learn the basics of PHP, you will see a dollar sign ($) on your screen, because this symbol ($) is used to mark variables. The following is a further explanation of PHP variables.
 - A variable name must start with a letter or an underscore (_), never a number. While they can contain alphanumeric characters (A-z, 0-9), sticking to clear, descriptive names makes your future self much happier.
