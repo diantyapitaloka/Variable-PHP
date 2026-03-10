@@ -1,7 +1,7 @@
 ## 🦞🦀🦑 Introduction 🦑🦀🦞
 The definition:
 - PHP is a programming language that has many variables.
-- Normally, when you set '''$a = $b''', you create a copy. However, using the ampersand (&$) allows two variables to "point" to the same data. If you change one, the other changes automatically.
+- Static Variables: If you want a variable inside a function to "remember" its value even after the function finishes (without making it global), use the static keyword. This is perfect for counters.
 - Learning PHP is incomplete without discussing PHP variables.
 - Variable Scope (Local vs. Global): Variables created inside a function are "local" and vanish once the function ends. To use a variable from the outside world inside a function, you must use the global keyword or the GLOBALS array.
 - Always try to initialize your variables. Even though PHP lets you create them on the fly, it’s best practice to define them early to prevent "Undefined variable" notices.
