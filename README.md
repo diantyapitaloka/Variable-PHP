@@ -3,6 +3,7 @@ The definition:
 - PHP is a programming language that has many variables.
 - Normally, when you set '''$a = $b''', you create a copy. However, using the ampersand (&$) allows two variables to "point" to the same data. If you change one, the other changes automatically.
 - Learning PHP is incomplete without discussing PHP variables.
+- Variable Scope (Local vs. Global): Variables created inside a function are "local" and vanish once the function ends. To use a variable from the outside world inside a function, you must use the global keyword or the $GLOBALS array.
 - Always try to initialize your variables. Even though PHP lets you create them on the fly, it’s best practice to define them early to prevent "Undefined variable" notices.
 - Once you learn the basics of PHP, you will see a dollar sign ($) on your screen, because this symbol ($) is used to mark variables. The following is a further explanation of PHP variables.
 - A variable name must start with a letter or an underscore (_), never a number. While they can contain alphanumeric characters (A-z, 0-9), sticking to clear, descriptive names makes your future self much happier.
