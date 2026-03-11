@@ -4,6 +4,7 @@ The definition:
 - Static Variables: If you want a variable inside a function to "remember" its value even after the function finishes (without making it global), use the static keyword. This is perfect for counters.
 - Learning PHP is incomplete without discussing PHP variables.
 - Variable Scope (Local vs. Global): Variables created inside a function are "local" and vanish once the function ends. To use a variable from the outside world inside a function, you must use the global keyword or the GLOBALS array.
+- Reference Variables: By using the ampersand symbol , you can create a reference that points to the same memory location as another variable. This means changing the value of one will instantly update the other, as they are effectively two names for the same data.
 - Type Juggling: PHP automatically converts variables to the necessary data type based on the context in which they are used. For example, if you add an integer to a string that starts with a number, PHP will perform the math instead of throwing an error.
 - Constants vs. Variables: Unlike standard variables, constants are defined without a dollar sign and cannot be changed once set. They are globally accessible across your entire script, making them ideal for configuration settings like database credentials.
 - Scope Boundaries: Variables defined inside a function are local and cannot be accessed from the outside script. You must use the global keyword if you need to pull an external variable into that function’s logic.
