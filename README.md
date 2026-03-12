@@ -5,6 +5,7 @@ The definition:
 - Learning PHP is incomplete without discussing PHP variables.
 - Variable Scope (Local vs. Global): Variables created inside a function are "local" and vanish once the function ends. To use a variable from the outside world inside a function, you must use the global keyword or the GLOBALS array.
 - Variable Persistence: Standard PHP variables are stateless and reset every time the page is refreshed or a new request is made. To keep a variable's value alive for a returning user, you must store it in a Session or a Cookie.
+- Object Properties: When working with Classes, variables are referred to as "properties" and are accessed using the arrow operator. These variables belong to a specific instance of an object, allowing you to bundle data and behavior together.
 - Array Destructuring: PHP allows you to "unpack" an array into individual variables using a concise bracket syntax. This is incredibly helpful when a function returns a list of items and you want to give each one a distinct name immediately.
 - Null Coalescing Operator: To provide a default value when a variable might be missing, you can use the double question mark (??) operator. This shorthand simplifies your code by checking for a value and assigning a fallback in a single, readable line.
 - Memory Management: PHP uses a system called "reference counting" to automatically manage memory and delete variables that are no longer in use. You can manually trigger this cleanup for large data sets by using the unset function to destroy a variable explicitly.
