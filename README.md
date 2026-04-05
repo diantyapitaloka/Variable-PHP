@@ -4,6 +4,9 @@ The definition:
 - Static Property Persistence: Just as functions can have static variables, Classes can have static properties that belong to the class itself rather than an instance. These values remain consistent across all objects created from that class, making them ideal for shared settings.
 - Type Hinting: In modern PHP, you can specify the expected data type for function parameters and return values. This provides a layer of documentation and safety, ensuring that your logic receives the exact "shape" of data it requires to function.
 - Serialization: If you need to save a complex variable like an array or an object into a file or database, you can "serialize" it into a string format. Later, you can "unserialize" it to restore the original variable structure and data perfectly.
+- Variable References in Loops: When using a foreach loop, you can prefix the value variable with an ampersand to modify the original array elements directly. If you forget to unset that variable after the loop, it may unexpectedly overwrite data later in your script.
+
+Anonymous Functions as Variables: PHP treats functions as "first-class citizens," meaning you can assign an entire function logic to a single variable. These variables, known as Closures, can even capture variables from the parent scope to use them later.
 - Static Variables: If you want a variable inside a function to "remember" its value even after the function finishes (without making it global), use the static keyword. This is perfect for counters.
 - Learning PHP is incomplete without discussing PHP variables.
 - Variable Scope (Local vs. Global): Variables created inside a function are "local" and vanish once the function ends. To use a variable from the outside world inside a function, you must use the global keyword or the GLOBALS array.
