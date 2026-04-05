@@ -2,8 +2,7 @@
 The definition:
 - PHP is a programming language that has many variables.
 - Static Property Persistence: Just as functions can have static variables, Classes can have static properties that belong to the class itself rather than an instance. These values remain consistent across all objects created from that class, making them ideal for shared settings.
-
-Type Hinting: In modern PHP, you can specify the expected data type for function parameters and return values. This provides a layer of documentation and safety, ensuring that your logic receives the exact "shape" of data it requires to function.
+- Type Hinting: In modern PHP, you can specify the expected data type for function parameters and return values. This provides a layer of documentation and safety, ensuring that your logic receives the exact "shape" of data it requires to function.
 
 Serialization: If you need to save a complex variable like an array or an object into a file or database, you can "serialize" it into a string format. Later, you can "unserialize" it to restore the original variable structure and data perfectly.
 - Static Variables: If you want a variable inside a function to "remember" its value even after the function finishes (without making it global), use the static keyword. This is perfect for counters.
