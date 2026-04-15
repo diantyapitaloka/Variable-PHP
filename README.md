@@ -7,8 +7,7 @@ The definition:
 - Variable Data Types (Juggling): PHP is a loosely typed language, meaning it automatically converts variables to the necessary type based on the context. This "type juggling" allows you to add a string to an integer, though it requires careful attention to avoid logic errors.
 - Superglobals: PHP provides several built-in "Superglobal" variables like $_GET, $_POST, and $_SERVER that are accessible from any scope. These are essential for capturing user input from web forms or reading server environment details.
 - Memory Management and Unsetting: While PHP has an internal garbage collector, you can manually destroy a variable using the unset() function. This is particularly useful for freeing up memory when dealing with massive datasets or large file buffers.
-
-Predefined Variables in Exceptions: When an error occurs, PHP populates specific variables within a catch block to store the error message and stack trace. These variables allow developers to handle failures gracefully without crashing the entire script.
+- Predefined Variables in Exceptions: When an error occurs, PHP populates specific variables within a catch block to store the error message and stack trace. These variables allow developers to handle failures gracefully without crashing the entire script.
 
 Scalar vs. Compound Types: PHP distinguishes between scalar types, which hold a single value like integers or booleans, and compound types like arrays or objects. Understanding this distinction is key to mastering how data structures are passed through your application.
 - Static Property Persistence: Just as functions can have static variables, Classes can have static properties that belong to the class itself rather than an instance. These values remain consistent across all objects created from that class, making them ideal for shared settings.
