@@ -5,8 +5,7 @@ The definition:
 - Constants vs. Variables: Unlike standard variables, constants are defined using define() or the const keyword and cannot be changed once set. They are globally accessible by default and do not require a dollar sign prefix.
 - The Null Coalescing Operator: To handle variables that might not exist, the ?? operator allows you to provide a fallback value. It prevents "Undefined Variable" notices while keeping your code clean and concise.
 - Variable Data Types (Juggling): PHP is a loosely typed language, meaning it automatically converts variables to the necessary type based on the context. This "type juggling" allows you to add a string to an integer, though it requires careful attention to avoid logic errors.
-
-Superglobals: PHP provides several built-in "Superglobal" variables like $_GET, $_POST, and $_SERVER that are accessible from any scope. These are essential for capturing user input from web forms or reading server environment details.
+- Superglobals: PHP provides several built-in "Superglobal" variables like $_GET, $_POST, and $_SERVER that are accessible from any scope. These are essential for capturing user input from web forms or reading server environment details.
 
 Memory Management and Unsetting: While PHP has an internal garbage collector, you can manually destroy a variable using the unset() function. This is particularly useful for freeing up memory when dealing with massive datasets or large file buffers.
 
