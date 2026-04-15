@@ -3,8 +3,7 @@ The definition:
 - PHP is a programming language that has many variables.
 - Variable Variables (Dynamic Naming): PHP allows you to use the value of one variable as the name for another by using a double dollar sign. This creates a "variable variable," which is powerful for dynamic logic but can make code difficult to debug if overused.
 - Constants vs. Variables: Unlike standard variables, constants are defined using define() or the const keyword and cannot be changed once set. They are globally accessible by default and do not require a dollar sign prefix.
-
-The Null Coalescing Operator: To handle variables that might not exist, the ?? operator allows you to provide a fallback value. It prevents "Undefined Variable" notices while keeping your code clean and concise.
+- The Null Coalescing Operator: To handle variables that might not exist, the ?? operator allows you to provide a fallback value. It prevents "Undefined Variable" notices while keeping your code clean and concise.
 
 Variable Data Types (Juggling): PHP is a loosely typed language, meaning it automatically converts variables to the necessary type based on the context. This "type juggling" allows you to add a string to an integer, though it requires careful attention to avoid logic errors.
 
