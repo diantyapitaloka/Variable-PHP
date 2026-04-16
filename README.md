@@ -8,8 +8,7 @@ The definition:
 - The Ternary Operator: Often used as a shorthand for if-else blocks, the ternary operator (?:) allows you to assign a value to a variable based on a condition. It is a staple for keeping variable assignments concise and readable.
 - Object Casting: PHP allows you to "cast" variables from one type to another, such as turning an associative array into an object using (object). This transforms array keys into object properties, which can be useful when working with specific data structures.
 - The isset() vs empty() Check: Developers frequently use isset() to check if a variable is defined and not null, while empty() checks if a variable has a "falsy" value. Knowing the nuance between these two is critical for validating form data and user input.
-
-Environment Variables: Beyond superglobals, PHP can access system-level environment variables using the getenv() function. These are commonly used to store sensitive API keys or database credentials outside of the web-accessible codebase.
+- Environment Variables: Beyond superglobals, PHP can access system-level environment variables using the getenv() function. These are commonly used to store sensitive API keys or database credentials outside of the web-accessible codebase.
 - Variable Variables (Dynamic Naming): PHP allows you to use the value of one variable as the name for another by using a double dollar sign. This creates a "variable variable," which is powerful for dynamic logic but can make code difficult to debug if overused.
 - Constants vs. Variables: Unlike standard variables, constants are defined using define() or the const keyword and cannot be changed once set. They are globally accessible by default and do not require a dollar sign prefix.
 - The Null Coalescing Operator: To handle variables that might not exist, the ?? operator allows you to provide a fallback value. It prevents "Undefined Variable" notices while keeping your code clean and concise.
