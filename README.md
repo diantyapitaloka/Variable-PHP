@@ -3,8 +3,7 @@ The definition:
 - PHP is a programming language that has many variables.
 - Variable Scoping Rules: PHP variables are limited to the scope in which they are defined, such as inside a specific function or the global script. To access a global variable within a function, you must explicitly use the global keyword or the $GLOBALS array.
 - Pass by Reference: By default, variables are passed to functions by value, creating a copy of the data. However, using the ampersand (&) prefix allows you to pass by reference, meaning the function modifies the original variable directly.
-
-Type Hinting and Declarations: While PHP is loosely typed, modern versions allow for "Strict Typing" using type hints for function parameters and return values. This ensures that variables conform to expected types, significantly reducing runtime bugs in complex applications.
+- Type Hinting and Declarations: While PHP is loosely typed, modern versions allow for "Strict Typing" using type hints for function parameters and return values. This ensures that variables conform to expected types, significantly reducing runtime bugs in complex applications.
 
 Variable Interpolation: PHP allows variables to be parsed directly inside double-quoted strings, a process known as interpolation. This provides a clean way to inject dynamic data into text without the need for heavy concatenation.
 
