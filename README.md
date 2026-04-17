@@ -2,6 +2,21 @@
 The definition:
 - PHP is a programming language that has many variables.
 - Variable Scoping Rules: PHP variables are limited to the scope in which they are defined, such as inside a specific function or the global script. To access a global variable within a function, you must explicitly use the global keyword or the $GLOBALS array.
+- Static Variables in Functions: When a variable is declared as static inside a function, it retains its value even after the function execution completes. This allows you to track state across multiple calls to the same function without resorting to global variables.
+
+The Null Coalescing Operator: Introduced to streamline variable checks, the ?? operator returns the first operand if it exists and is not null. It effectively replaces the verbose ternary-with-isset pattern, making default value assignments much cleaner.
+
+Variable Unsetting: The unset() function is used to destroy a specified variable, effectively removing it from the current symbol table. This is particularly useful for freeing up memory when dealing with massive datasets or large object instances within a script.
+
+Superglobal Arrays: PHP provides several built-in "superglobal" variables like $_POST, $_GET, and $_SESSION that are accessible from any scope. These automatically aggregate external data, such as form inputs or browser cookies, into easily accessible associative arrays.
+
+Constants vs. Variables: Unlike standard variables, constants are defined using define() or the const keyword and cannot be changed or undefined once set. They are globally accessible by nature and do not require the dollar sign ($) prefix used by variables.
+
+Closure Variable Scoping: Anonymous functions, or closures, can inherit variables from the parent scope using the use keyword. This creates a snapshot of the variable's value at the time the closure is defined, allowing for powerful functional programming patterns.
+
+Reference Counting and Garbage Collection: PHP uses a reference counting system to manage memory, automatically deleting variables that are no longer referenced by any part of the code. This internal mechanism ensures that the engine efficiently handles resources without requiring manual memory management from the developer.
+
+Array Destructuring: PHP allows you to "unpack" array elements into individual variables using the list() syntax or square brackets []. This provides a highly readable way to assign multiple variables simultaneously from a single function return or data structure
 - Pass by Reference: By default, variables are passed to functions by value, creating a copy of the data. However, using the ampersand (&) prefix allows you to pass by reference, meaning the function modifies the original variable directly.
 - Type Hinting and Declarations: While PHP is loosely typed, modern versions allow for "Strict Typing" using type hints for function parameters and return values. This ensures that variables conform to expected types, significantly reducing runtime bugs in complex applications.
 - Variable Interpolation: PHP allows variables to be parsed directly inside double-quoted strings, a process known as interpolation. This provides a clean way to inject dynamic data into text without the need for heavy concatenation.
