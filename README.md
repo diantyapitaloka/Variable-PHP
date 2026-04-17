@@ -5,8 +5,7 @@ The definition:
 - Static Variables in Functions: When a variable is declared as static inside a function, it retains its value even after the function execution completes. This allows you to track state across multiple calls to the same function without resorting to global variables.
 - The Null Coalescing Operator: Introduced to streamline variable checks, the ?? operator returns the first operand if it exists and is not null. It effectively replaces the verbose ternary-with-isset pattern, making default value assignments much cleaner.
 - Variable Unsetting: The unset() function is used to destroy a specified variable, effectively removing it from the current symbol table. This is particularly useful for freeing up memory when dealing with massive datasets or large object instances within a script.
-
-Superglobal Arrays: PHP provides several built-in "superglobal" variables like $_POST, $_GET, and $_SESSION that are accessible from any scope. These automatically aggregate external data, such as form inputs or browser cookies, into easily accessible associative arrays.
+- Superglobal Arrays: PHP provides several built-in "superglobal" variables like $_POST, $_GET, and $_SESSION that are accessible from any scope. These automatically aggregate external data, such as form inputs or browser cookies, into easily accessible associative arrays.
 
 Constants vs. Variables: Unlike standard variables, constants are defined using define() or the const keyword and cannot be changed or undefined once set. They are globally accessible by nature and do not require the dollar sign ($) prefix used by variables.
 
