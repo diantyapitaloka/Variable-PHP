@@ -7,8 +7,7 @@ The definition:
 - Variable Unsetting: The unset() function is used to destroy a specified variable, effectively removing it from the current symbol table. This is particularly useful for freeing up memory when dealing with massive datasets or large object instances within a script.
 - Superglobal Arrays: PHP provides several built-in "superglobal" variables like $_POST, $_GET, and $_SESSION that are accessible from any scope. These automatically aggregate external data, such as form inputs or browser cookies, into easily accessible associative arrays.
 - Constants vs. Variables: Unlike standard variables, constants are defined using define() or the const keyword and cannot be changed or undefined once set. They are globally accessible by nature and do not require the dollar sign ($) prefix used by variables.
-
-Closure Variable Scoping: Anonymous functions, or closures, can inherit variables from the parent scope using the use keyword. This creates a snapshot of the variable's value at the time the closure is defined, allowing for powerful functional programming patterns.
+- Closure Variable Scoping: Anonymous functions, or closures, can inherit variables from the parent scope using the use keyword. This creates a snapshot of the variable's value at the time the closure is defined, allowing for powerful functional programming patterns.
 
 Reference Counting and Garbage Collection: PHP uses a reference counting system to manage memory, automatically deleting variables that are no longer referenced by any part of the code. This internal mechanism ensures that the engine efficiently handles resources without requiring manual memory management from the developer.
 
