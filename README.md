@@ -7,8 +7,7 @@ The definition:
 - The Undefined vs Null Distinction: Accessing a variable that has not been initialized will trigger a warning in modern versions of PHP. It is a best practice to initialize your variables or use the isset function to verify their existence before use.
 - Constructor Property Promotion: This feature allows you to declare and initialize class properties directly within the constructor’s parameter list. It significantly reduces boilerplate code by combining variable declaration and assignment into a single line.
 - Read-only Properties: You can mark class variables with a keyword that ensures they can only be assigned a value once. This provides a way to create immutable data structures within objects while still allowing them to be set during initialization.
-
-Variable Interpolation: Variables placed inside double-quoted strings are automatically parsed and replaced by their actual values. Using curly braces around the variable name helps clarify where the name starts and ends within complex strings.
+- Variable Interpolation: Variables placed inside double-quoted strings are automatically parsed and replaced by their actual values. Using curly braces around the variable name helps clarify where the name starts and ends within complex strings.
 
 The Global Symbol Table: Every global variable is automatically indexed in a special associative array that is accessible from any scope in the script. This provides a way to interact with global data without needing to use the global keyword inside every function.
 - Variable Scoping Rules: PHP variables are limited to the scope in which they are defined, such as inside a specific function or the global script. To access a global variable within a function, you must explicitly use the global keyword or the $GLOBALS array.
