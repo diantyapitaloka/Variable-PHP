@@ -4,8 +4,7 @@ The definition:
 - Variable Variables: PHP allows for dynamic variable names by using two dollar signs, where the value of one variable becomes the name of another. For example, if a variable contains the string "hello", using a double dollar sign will access the variable named hello.
 - Variable Functions: You can call a function dynamically by appending parentheses to a variable that contains a string matching a function name. This allows the script to decide which piece of logic to execute at runtime based on user input or logic.
 - Type Juggling and Casting: PHP is a loosely typed language that automatically converts variables to the required type depending on the mathematical or logical context. However, you can use explicit casting to force a variable into a specific type like an integer or a boolean to ensure data integrity.
-
-The Undefined vs Null Distinction: Accessing a variable that has not been initialized will trigger a warning in modern versions of PHP. It is a best practice to initialize your variables or use the isset function to verify their existence before use.
+- The Undefined vs Null Distinction: Accessing a variable that has not been initialized will trigger a warning in modern versions of PHP. It is a best practice to initialize your variables or use the isset function to verify their existence before use.
 
 Constructor Property Promotion: This feature allows you to declare and initialize class properties directly within the constructor’s parameter list. It significantly reduces boilerplate code by combining variable declaration and assignment into a single line.
 
