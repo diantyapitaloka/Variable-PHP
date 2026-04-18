@@ -1,6 +1,21 @@
 ## 🦞🦀🦑 Introduction 🦑🦀🦞
 The definition:
 - PHP is a programming language that has many variables.
+- Variable Variables: PHP allows for dynamic variable names by using two dollar signs, where the value of one variable becomes the name of another. For example, if a variable contains the string "hello", using a double dollar sign will access the variable named hello.
+
+Variable Functions: You can call a function dynamically by appending parentheses to a variable that contains a string matching a function name. This allows the script to decide which piece of logic to execute at runtime based on user input or logic.
+
+Type Juggling and Casting: PHP is a loosely typed language that automatically converts variables to the required type depending on the mathematical or logical context. However, you can use explicit casting to force a variable into a specific type like an integer or a boolean to ensure data integrity.
+
+The Undefined vs Null Distinction: Accessing a variable that has not been initialized will trigger a warning in modern versions of PHP. It is a best practice to initialize your variables or use the isset function to verify their existence before use.
+
+Constructor Property Promotion: This feature allows you to declare and initialize class properties directly within the constructor’s parameter list. It significantly reduces boilerplate code by combining variable declaration and assignment into a single line.
+
+Read-only Properties: You can mark class variables with a keyword that ensures they can only be assigned a value once. This provides a way to create immutable data structures within objects while still allowing them to be set during initialization.
+
+Variable Interpolation: Variables placed inside double-quoted strings are automatically parsed and replaced by their actual values. Using curly braces around the variable name helps clarify where the name starts and ends within complex strings.
+
+The Global Symbol Table: Every global variable is automatically indexed in a special associative array that is accessible from any scope in the script. This provides a way to interact with global data without needing to use the global keyword inside every function.
 - Variable Scoping Rules: PHP variables are limited to the scope in which they are defined, such as inside a specific function or the global script. To access a global variable within a function, you must explicitly use the global keyword or the $GLOBALS array.
 - Static Variables in Functions: When a variable is declared as static inside a function, it retains its value even after the function execution completes. This allows you to track state across multiple calls to the same function without resorting to global variables.
 - The Null Coalescing Operator: Introduced to streamline variable checks, the ?? operator returns the first operand if it exists and is not null. It effectively replaces the verbose ternary-with-isset pattern, making default value assignments much cleaner.
