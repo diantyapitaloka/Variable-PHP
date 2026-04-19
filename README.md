@@ -5,8 +5,7 @@ The definition:
 - Reference Assignments: By using the ampersand symbol, you can create a reference where two variables point to the same data. Modifying one will immediately update the other because they share the same memory location.
 - The Nature of Constants: Constants defined with const or define() differ from variables because they are immutable once set. They are also globally accessible throughout the script without requiring any special keywords to pull them into local scopes.
 - The Null Coalescing Operator: This operator provides a concise way to check if a variable exists and is not null. It allows you to define a fallback value in a single line, which is much cleaner than using multiple isset checks.
-
-Superglobal Accessibility: Predefined variables like $_SESSION and $_SERVER are automatically available in every scope. You do not need to declare them as global inside functions or methods to read their data.
+- Superglobal Accessibility: Predefined variables like $_SESSION and $_SERVER are automatically available in every scope. You do not need to declare them as global inside functions or methods to read their data.
 
 Variable Shadowing: When a local variable or parameter shares a name with a global one, the local version takes precedence. This protects global data from accidental overwrites but requires developers to be mindful of naming collisions.
 
