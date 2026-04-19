@@ -6,8 +6,7 @@ The definition:
 - The Nature of Constants: Constants defined with const or define() differ from variables because they are immutable once set. They are also globally accessible throughout the script without requiring any special keywords to pull them into local scopes.
 - The Null Coalescing Operator: This operator provides a concise way to check if a variable exists and is not null. It allows you to define a fallback value in a single line, which is much cleaner than using multiple isset checks.
 - Superglobal Accessibility: Predefined variables like $_SESSION and $_SERVER are automatically available in every scope. You do not need to declare them as global inside functions or methods to read their data.
-
-Variable Shadowing: When a local variable or parameter shares a name with a global one, the local version takes precedence. This protects global data from accidental overwrites but requires developers to be mindful of naming collisions.
+- Variable Shadowing: When a local variable or parameter shares a name with a global one, the local version takes precedence. This protects global data from accidental overwrites but requires developers to be mindful of naming collisions.
 
 Array Destructuring: PHP allows you to unpack array elements into distinct variables using square bracket syntax. This makes it incredibly efficient to handle structured data returned from functions or database queries.
 
