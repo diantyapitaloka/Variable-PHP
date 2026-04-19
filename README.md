@@ -8,8 +8,7 @@ The definition:
 - Superglobal Accessibility: Predefined variables like $_SESSION and $_SERVER are automatically available in every scope. You do not need to declare them as global inside functions or methods to read their data.
 - Variable Shadowing: When a local variable or parameter shares a name with a global one, the local version takes precedence. This protects global data from accidental overwrites but requires developers to be mindful of naming collisions.
 - Array Destructuring: PHP allows you to unpack array elements into distinct variables using square bracket syntax. This makes it incredibly efficient to handle structured data returned from functions or database queries.
-
-Manual Memory Clearing: While PHP has an automated garbage collector, you can use the unset() function to manually destroy a variable. This is a vital practice when handling large objects or datasets to keep memory usage low.
+- Manual Memory Clearing: While PHP has an automated garbage collector, you can use the unset() function to manually destroy a variable. This is a vital practice when handling large objects or datasets to keep memory usage low.
 - Variable Variables: PHP allows for dynamic variable names by using two dollar signs, where the value of one variable becomes the name of another. For example, if a variable contains the string "hello", using a double dollar sign will access the variable named hello.
 - Variable Functions: You can call a function dynamically by appending parentheses to a variable that contains a string matching a function name. This allows the script to decide which piece of logic to execute at runtime based on user input or logic.
 - Type Juggling and Casting: PHP is a loosely typed language that automatically converts variables to the required type depending on the mathematical or logical context. However, you can use explicit casting to force a variable into a specific type like an integer or a boolean to ensure data integrity.
