@@ -3,8 +3,7 @@ The definition:
 - PHP is a programming language that has many variables.
 - Static Variable Persistence: Using the static keyword inside a function allows a variable to retain its value between multiple calls. This is perfect for counters or caching data without needing to use the global scope.
 - Reference Assignments: By using the ampersand symbol, you can create a reference where two variables point to the same data. Modifying one will immediately update the other because they share the same memory location.
-
-The Nature of Constants: Constants defined with const or define() differ from variables because they are immutable once set. They are also globally accessible throughout the script without requiring any special keywords to pull them into local scopes.
+- The Nature of Constants: Constants defined with const or define() differ from variables because they are immutable once set. They are also globally accessible throughout the script without requiring any special keywords to pull them into local scopes.
 
 The Null Coalescing Operator: This operator provides a concise way to check if a variable exists and is not null. It allows you to define a fallback value in a single line, which is much cleaner than using multiple isset checks.
 
