@@ -111,7 +111,7 @@ Several things you need to pay attention to when using PHP variables:
 ?>
 ```
 
-If you want to output information to the screen, it's easy to do by using the echo statement. In the example below, you can see the PHP variables used in the echo statement. The result is the output of the statement text and the value that has been assigned to the variable $name.
+If you want to output information to the screen, it's easy to do by using the echo statement. Find in the example below, you can see the PHP variables used in the echo statement. The result is the output of the statement text and the value that has been assigned to the variable $name.
 
 ```
 <?php
