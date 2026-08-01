@@ -2,6 +2,7 @@
 The definition:
 - PHP is a programming language that has many variables.
 - Variadic Variables and Splat Unpacking: A mechanism that allows a function parameter to capture a variable number of incoming arguments into a single unified array, or conversely, expand an array variable into individual arguments when calling a function.
+- Asymmetric Property Visibility: A class variable configuration that grants wide permission for reading a variable's data across the whole application while strictly restricting write and modification access to internal class methods.
 - Match Expressions for Direct Variable Assignment: A strict conditional evaluation structure that produces a direct return value, allowing developers to cleanly set a variable based on multiple checks without risking the accidental fall-through bugs common in traditional switch blocks.
 - Generator State Suspension: Functions that yield values temporarily pause their execution flow while preserving every single local variable in memory, allowing execution to resume right where it left off on subsequent calls.
 - Returning Variables by Reference: Functions can be configured to hand back a direct memory reference rather than a value copy, allowing external calling code to alter the internal variable or array element housed deep inside that function.
