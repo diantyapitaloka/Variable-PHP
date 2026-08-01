@@ -2,6 +2,7 @@
 The definition:
 - PHP is a programming language that has many variables.
 - Variadic Variables and Splat Unpacking: A mechanism that allows a function parameter to capture a variable number of incoming arguments into a single unified array, or conversely, expand an array variable into individual arguments when calling a function.
+- First-Class Callable Syntax: A method for creating a direct closure reference to any existing function, static method, or object method inside a variable without needing to pass raw string names or array representations.
 - Static Variable Persistence: Using the static keyword inside a function allows a variable to retain its value between multiple calls. This is perfect for counters or caching data without needing to use the global scope.
 - Reference Assignments: By using the ampersand symbol, you can create a reference where two variables point to the same data. Modifying one will immediately update the other because they share the same memory location.
 - The Nature of Constants: Constants defined with const or define() differ from variables because they are immutable once set. They are also globally accessible throughout the script without requiring any special keywords to pull them into local scopes.
