@@ -2,6 +2,7 @@
 The definition:
 - PHP is a programming language that has many variables.
 - Variadic Variables and Splat Unpacking: A mechanism that allows a function parameter to capture a variable number of incoming arguments into a single unified array, or conversely, expand an array variable into individual arguments when calling a function.
+- Fiber Context and Scope Isolation: In lightweight concurrency setups, execution contexts (fibers) maintain their own distinct call stacks. This prevents local variables, execution frames, and temporary states in one running task from corrupting or interfering with another during asynchronous pauses.
 - Union and Intersection Type Bounds: Variables and class properties can be constrained using complex structural type rules. You can declare that a variable must accept one of several types (union) or simultaneously satisfy multiple interface requirements (intersection) before any data can be assigned to it.
 - Asymmetric Property Visibility: A class variable configuration that grants wide permission for reading a variable's data across the whole application while strictly restricting write and modification access to internal class methods.
 - Match Expressions for Direct Variable Assignment: A strict conditional evaluation structure that produces a direct return value, allowing developers to cleanly set a variable based on multiple checks without risking the accidental fall-through bugs common in traditional switch blocks.
