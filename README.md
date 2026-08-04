@@ -2,6 +2,7 @@
 The definition:
 - PHP is a programming language that has many variables.
 - Variadic Variables and Splat Unpacking: A mechanism that allows a function parameter to capture a variable number of incoming arguments into a single unified array, or conversely, expand an array variable into individual arguments when calling a function.
+- Implicit Variable Pass-by-Copy: By default, standard scalar variables (like integers, floats, and strings) and arrays are passed to functions as distinct copies rather than live references. Modifications made inside the function body do not affect the original caller's variable unless explicit memory reference syntax is applied.
 - Readonly Object Properties: Class fields can be locked down after initialization. Once a value is assigned to a designated readonly property during instantiation or setup, any subsequent attempt to mutate or overwrite that property throws a runtime fault.
 - Fiber Context and Scope Isolation: In lightweight concurrency setups, execution contexts (fibers) maintain their own distinct call stacks. This prevents local variables, execution frames, and temporary states in one running task from corrupting or interfering with another during asynchronous pauses.
 - Union and Intersection Type Bounds: Variables and class properties can be constrained using complex structural type rules. You can declare that a variable must accept one of several types (union) or simultaneously satisfy multiple interface requirements (intersection) before any data can be assigned to it.
