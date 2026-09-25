@@ -93,6 +93,7 @@ The definition:
 - PHP comes with special built-in variables that are always available, regardless of scope. Examples include $_GET and $_POST (for form data) or $_SESSION (for user login info).
 - PHP has a unique "meta" feature where you can use the value of one variable as the name of another. For example, $$name allows for dynamic scripting, though it’s a power best used sparingly.
 - Unlike "Strict" languages (like Java), you don't have to tell PHP if a variable is a string or an integer. You can change a variable from $data = "Hello" to $data = 100 in the next line without the engine complaining.
+- Weak Maps for Garbage Collection: Using the WeakMap data structure allows keys (which must be object instances) to hold references to dynamic metadata without preventing those object keys from being garbage collected when they fall out of scope elsewhere in the application.
 
 ## 🦞🦀🦑 Learning Basic PHP: Understanding the Use of Variables 🦑🦀🦞
 Learning Basics:
