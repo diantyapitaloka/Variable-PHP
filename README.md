@@ -1,5 +1,5 @@
 ## 🦞🦀🦑 Introduction 🦑🦀🦞
-The definition:
+The definition below:
 - PHP is a programming language that has many variables.
 - Variadic Variables and Splat Unpacking: A mechanism that allows a function parameter to capture a variable number of incoming arguments into a single unified array, or conversely, expand an array variable into individual arguments when calling a function.
 - Global Keyword Context Injection: Standard functions operate in an isolated scope that cannot see script-level variables. Explicitly calling a global import statement inside a function manually bridges that gap, pulling external script variables directly into the function’s local environment.
